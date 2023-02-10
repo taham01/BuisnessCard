@@ -1,0 +1,71 @@
+body{
+    margin: 20px;
+    font-family: Simplified Arabic, Geneva, Tahoma, sans-serif;
+}
+.myimage{
+    width:150px;
+}
+.container{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    position: center;
+    padding: 20px;
+    margin: 10px auto;
+    background: lightseagreen;
+    color: black;
+    border-bottom: 5px solid forestgreen;
+    border-radius: 25px;
+}
+.black-border{
+    border: 1px dotted black;
+}
+.container1{
+    width: 50%;
+    display: block;
+    justify-self: center;
+    padding-left: 10px;
+}
+.container2{
+    background-color: #40C99B;
+    border-radius: 25px;
+    width :40%;
+    height:160px;
+    padding: 10px 0;
+}
+.imageedit{
+    padding: 7px 5px;
+}
+.Nset{
+    display: flex;
+    justify-self: flex-start;
+    text-shadow: 1px 1px #00b4d8;
+    transition: width .50s, height . 1000s;
+}
+.Nset:hover{
+    color:#4cc9f0;
+}
+.location{
+    text-shadow: 1px 1px #48cae4;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #023e8a;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+}
+.location:hover {
+    color:  #90e0ef;
+}
+.Job{
+    text-shadow: 1px 1px #90e0ef;
+    transition: width .2s linear, box-shadow .3s linear;
+}
+.Job:hover{
+    color: #90e0ef;
+}
+.Name{
+    text-shadow: 1px 1px #023e8a;
+    transition: width .2s, height .20s;
+}
+.Name:hover{
+    color: springgreen;
+}
